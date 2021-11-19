@@ -9,5 +9,6 @@ it outputs ist Arabic translation. If the input is Arabic, it ouputs its English
 3. Script normalizes the input. For English it lowers the case, for Arabic it removes hamza and diacritics
 4. Data is in a python dictionary with the keys are the Englsh expressons and the values are their Arabic
 translation
-The data is in a separte file thst should be in the same directory of the script.
-This is work in progress
+The data currently is limited and  is in a separte file thst should be in the same directory of the script.
+This is work in progress 
+Added voice output of the translated phrase in addition to the written output
