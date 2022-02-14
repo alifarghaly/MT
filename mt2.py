@@ -61,7 +61,7 @@ def translate_ar(text):
             engine.runAndWait()
             Output.insert(END, key)    
       
-l = Label(text = "Please the word or phrase you would like to translate ")
+l = Label(text = "Please write the word or phrase you would like to translate  from or to Arabic ")
 inputtxt = Text(root, height = 10,
                 width = 40,
                 bg = "light yellow")
